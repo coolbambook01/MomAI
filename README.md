@@ -12,9 +12,10 @@ The ultimate goal of this project is to develop a **Custom Font Generator**. Whi
 The model was developed and trained in `nn.ipynb` using the following pipeline:
 
 ### 1. Dataset
-- **Source:** Sourced from **Kaggle** (Handwritten/Printed Letter Dataset).
+- **Source:** [Letter Recognition Dataset](https://www.kaggle.com/datasets/nishan192/letterrecognition-using-svm) via KaggleHub.
+- **Acquisition:** Downloaded programmatically using `kagglehub`.
 - **Structure:** Processed via `ImageFolder` with a folder-per-letter class architecture.
-
+- 
 ### 2. Architecture & Training
 - **Core Model:** **ResNet18** (Transfer Learning).
 - **Optimization:** Replaced the final Fully Connected (FC) layer to support a 26-way classification (A-Z).
