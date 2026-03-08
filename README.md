@@ -26,8 +26,8 @@ The model was developed and trained in `nn.ipynb` using the following pipeline:
 
 ### 3. Evaluation Metrics
 The model was evaluated on a 20% held-out test set using:
-- **Accuracy:** Overall correctness of predictions.
-- **F1-Score (Weighted):** To ensure balanced performance across all 26 classes.
+- **Accuracy:** 93.98%
+- **F1-Score (Weighted):** 0.9419
 
 ---
 
